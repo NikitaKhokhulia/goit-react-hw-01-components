@@ -1,0 +1,31 @@
+.transaction__history {
+  /*   border: 1px solid #ccc; */
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 420px;
+  table-layout: fixed;
+}
+
+
+table tr {
+  background-color: #ffffff90;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+.thead {
+  background-color: rgb(67 56 202);
+  color: #fff;
+}
+
+table th,
+table td {
+  padding: 20px;
+  text-align: center;
+}
+
+table th {
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+}

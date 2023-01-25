@@ -1,9 +1,16 @@
+import css from './FriendListItem.module.css';
+
 const FriendListItem = ({ friendsItem: { avatar, name, isOnline } }) => {
   return (
-    <li className="item">
-      <span className="status">{isOnline}</span>
+    <li className={css.item}>
+      <span
+        style={{ backgroundColor: `${isOnline ? 'red' : 'green'}` }}
+        className={css.status}
+      >
+        status
+      </span>
       <img className="avatar" src={avatar} alt="User avatar" width="48" />
-      <p className={name}></p>
+      <p className="name">{name}</p>
     </li>
   );
 };
