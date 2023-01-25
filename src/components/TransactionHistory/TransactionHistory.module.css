@@ -1,12 +1,11 @@
 .transaction__history {
-  /*   border: 1px solid #ccc; */
+  border: 1px solid #ccc;
   border-collapse: collapse;
   margin: 0 auto;
-  padding: 0;
+  max-width: 470px;
+  background-color: rgb(190, 197, 195);
   max-width: 420px;
-  table-layout: fixed;
 }
-
 
 table tr {
   background-color: #ffffff90;
